@@ -1,0 +1,24 @@
+.tble{
+    border:1px solid #dbdbdb;
+    padding: .5em .75em;
+    /* vertical-align: top; */
+    color: #363636;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 700px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+/* to place a border on the left and righr side of the cell */
+ td {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
