@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="getLocation()"> GetLocation</button>
+</body>
+<script>
+    function getLocation(){
+
+        if(navigator.geolocation){
+            console.log("present");
+            navigator.geolocation.getCurrentPosition(darshan)
+        }
+        else{
+            console.log("absent");
+        }
+        function darshan(data){
+            console.log(data);
+            console.log(data.coords.latitude);
+        }
+    }
+
+    // DRAG AND DROP
+
+    // web workers
+
+
+
+    //html 5 plugins object and embed
+    // <object data = "media/file.mp4"></object>
+    // <embed src = "media/file.mp4"/>
+    // html 5 emojis and donot need to specify type of file while linking external files
+    //doctype and imroved tabbing features
+    
+     
+     
+
+</script>
+</html>
