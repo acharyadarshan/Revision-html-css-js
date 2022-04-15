@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>postions</title>
+    </head>
+    <body>
+        <style>
+            .main{
+                width: 700px;
+                height: 200vh;
+                background-color: brown;
+                /* position: relative; */
+            }
+            .child1{
+                background-color: blue;
+                height: 80px;
+                /* position: fixed; */
+                left:50px;
+                top:0;
+                
+            }
+            .child2{
+                background-color: yellow;
+                height: 80px;
+                position: sticky;
+                top: 0;
+            }
+            .child3{
+                background-color: green;
+                height: 80px;
+            }
+
+        </style>
+        <div class = "main">
+            main
+            <div class="child1">child1</div>
+            <div class="child2">child2</div>
+            <div class="child3">child3</div>
+        </div>
+    </body>
+</html>

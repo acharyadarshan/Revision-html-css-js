@@ -1,0 +1,44 @@
+selector{
+    property: value
+}
+
+style by 3 ways 
+1 using external file
+2 using <style> 
+3 using inside tag <p text transform: uppercase>
+
+grouping selector(tag1, tag2)
+
+
+background color"
+background image:url("image.jpg")
+background repaeat: no repeat /repeat x/y
+background position: right top
+background attachment: scroll/fixed
+
+
+shorthand 
+{
+    background: #ffff url("image.jpg")no repeat right top:
+    border : width style color 3 px  dotted solid green
+}
+{
+    line-height:
+    letter-spacing
+    word-spacing
+
+}
+a:hover{
+    text-decoration: none;
+    font-size:40px'
+
+}
+a:{
+    text-decoration: none;
+    color: black:
+}
+
+tr nth child(even){
+color: blue;
+}
+
