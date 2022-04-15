@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            flexbox
+        </title>
+</head>
+<style>
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        background-color:chartreuse;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap:20px 20px;
+    }
+    .main >div{
+        border-color: 20px solid black;
+        height: 150px;
+        
+        width: 200px;
+        margin: 10px;
+        padding: 20px;
+    }
+</style>
+<body>
+    <div class="main">
+        <div style=" background-color: yellow;">A</div>
+        <div style="background-color: aliceblue;">B</div>
+        <div style="background-color: aqua;">C</div>
+        <div style="background-color: orange;">D</div>
+        <div style="background-color: blue;">E</div>
+        <div style="background-color: blueviolet;">F</div>
+        <div style="background-color: brown;">G</div>
+    </div>
+    
+</body>
+</html>
